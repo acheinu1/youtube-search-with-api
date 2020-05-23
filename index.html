@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="./assets/js/jquery-3.5.0.min.js"></script>
+</head>
+<body>
+    <div id="container">
+        <header>
+            <h1>Search<span>Vidz</span></h1>
+            <p>Search all Youtube videos</p>
+        </header>
+        <section>
+                <form name="search-form" id=" search-form" onsubmit="return search()">
+                    <div class="fieldcontainer">
+                        <input type="search"  id="query" class="search-field" placeholder="Search Youtube">
+                        <input type="button" name="search-btn" id="search-btn" value="">
+                    </div>
+                </form>
+
+            <ul id="results"></ul>
+            <div id="buttons"></div>
+        </section>
+        <footer>
+            <p>  Copyright &copy; 2020  All rights reserved by acheinu </p>
+        </footer>
+    </div>
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
